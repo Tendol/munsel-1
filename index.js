@@ -22,7 +22,7 @@ class App extends React.Component{
 								 <div className="collapse navbar-collapse" id="navbarCollapse">
 									 <ul className="navbar-nav ml-auto">
 										 <li className="nav-item ">
-											 <a href="#." className="nav-link active">Test</a>
+											 <a href="#." className="nav-link active">Products</a>
 										 </li>
 										 <li className="nav-item ">
 											 <a href="#." className="nav-link">About</a>
