@@ -192,14 +192,14 @@ class App extends React.Component{
 										<div className="col-lg-7 col-md-7">
 											<div className="h-100 d-flex flex-column justify-content-center b-radius">
 												<div className="join-form p-lg-5 p-3">
-												<h3 className="text-white f-medium">Sign up with your email address:</h3>
-												<form className="form form-newsletter" method="post" action="index.html">
-																		<div className="form-group py-3">
-																				<input className="form-control" placeholder="Enter@email.com" type="email"/>
-																		</div>
-																		<button type="button" className="btn dark-btn btn-block" name="button">Get Started</button>
-																</form>
-																</div>
+													<h3 className="text-white f-medium">Sign up with your email address:</h3>
+													<form className="form form-newsletter" method="post" action="index.html">
+														<div className="form-group py-3">
+															<input className="form-control" placeholder="Enter@email.com" type="email"/>
+														</div>
+														<button type="button" className="btn dark-btn btn-block" name="button">Get Started</button>
+													</form>
+											        </div>
 											</div>
 										</div>
 									</div> {/* -/row-inneer */}
@@ -241,20 +241,20 @@ class App extends React.Component{
 							 <div className="offset-lg-1 col-lg-4 col-md-5 col-sm-8 footer-form">
 								 <h2>Stay Updated!</h2>
 								 <form className="form form-newsletter input-group mb-4" method="post" action="index.html">
-														 <input className="form-control mr-md-1" placeholder="Enter@email.com" type="email"/>
-														 <button type="button" className="btn input-group-append dark-btn x-small-btn" name="button">Send</button>
-												 </form>
-												 <div className="footer-social d-flex justify-content-between">
-													 <button className="btn btn-social btn-facebook" onclick="location.href='https://www.facebook.com/TheMunsel'">
-															 <i className="fab fa-facebook-f"></i> Facebook
-													 </button>
-													 <button className="btn btn-social btn-instagram" onclick="location.href='https://www.instagram.com/themunsel'">
-															 <i className="fab fa-instagram"></i> Instagram
-													 </button>
-													 <button className="btn btn-social btn-youtube" onclick="location.href='https://www.youtube.com/channel/UCoBQcPMruzmRdfE5sdAxk5w'">
-															 <i className="fab fa-youtube"></i> Youtube
-													 </button>
-											 </div>
+									<input className="form-control mr-md-1" placeholder="Enter@email.com" type="email"/>
+									<button type="button" className="btn input-group-append dark-btn x-small-btn" name="button">Send</button>
+								 </form>
+								<div className="footer-social d-flex justify-content-between">
+									<button className="btn btn-social btn-facebook" onclick="location.href='https://www.facebook.com/TheMunsel'">
+									<i className="fab fa-facebook-f"></i> Facebook
+									</button>
+									<button className="btn btn-social btn-instagram" onclick="location.href='https://www.instagram.com/themunsel'">
+									<i className="fab fa-instagram"></i> Instagram
+									</button>
+									<button className="btn btn-social btn-youtube" onclick="location.href='https://www.youtube.com/channel/UCoBQcPMruzmRdfE5sdAxk5w'">
+									<i className="fab fa-youtube"></i> Youtube
+									 </button>
+								 </div>
 							 </div> {/* /col */}
 						 </div> {/* /row */}
 						 <div className="t-burger">
@@ -268,7 +268,7 @@ class App extends React.Component{
 						 </div>
 					 </div>{/* /container*/}
 				</footer>
-			{/*}	<script src={require ('js/jquery3.3.1.min.js')}></script> {/* JQUERY LIBRARY
+			{/*	<script src={require ('js/jquery3.3.1.min.js')}></script> {/* JQUERY LIBRARY
 				<script src={require ('js/bootstrap-popper.min.js')}></script> {/* Bootstrap JS
 				<script src={require ('js/bootstrap.4.1.1.min.js')}></script> {/* } Bootstrap JS
 				<script src={require ('js/main.js')}></script>{/*} Main JS*/ }
