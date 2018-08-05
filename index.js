@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, from 'react';
 import ReactDOM from 'react-dom';
 import './css/bootstrap.4.1.1.min.css';
 import './css/style.css';
@@ -43,28 +43,28 @@ class App extends React.Component{
 								 </div> {/*.navbar-collapse */}
 							 </div> {/* / .container */}
 						 </nav>
-	        <div className="d-table w-100 h-100">
-			 	 		<div className="d-table-cell align-middle">
+					<div className="d-table w-100 h-100">
+						<div className="d-table-cell align-middle">
 							 <div className="container burger-responsive">
-								 <div className="row">
-									 <div className="col-lg-9 col-xl-6 col-sm-12 col-md-9">
-										 <div className="banner-text position-relative d-flex flex-column justify-content-center">
-											 <h1 className="text-white big-font">Learn the Natural way,  Speak like a Native.</h1>
-											 <p className="mb-4">*Munsel is an online language learning platform that connects native language speakers with students. </p>
-											 <form className="form form-newsletter input-group" method="post" action="index.html">
-																	 <input className="form-control mr-md-3 mr-1" placeholder="Enter@email.com" type="email"></input>
-																	 <button type="button" className="input-group-append btn dark-btn " name="button">Get Started</button>
-															 </form>
-															 <p className="mt-3 lead border-dashed">Increase your chance of learning a new language by  12%</p>
-															 <a href="javascript:;" className="learn-more text-white lead font-weight-bold d-table">
-															 <span className="">Learn More</span>
-															 <i className="fa fa-angle-down d-table-cell align-bottom pl-2"></i></a>
-														 </div> {/* }/banner text */}
-									 </div>{/* }/col */}
-								 </div> {/* /row */ }
+								<div className="row">
+									<div className="col-lg-9 col-xl-6 col-sm-12 col-md-9">
+										<div className="banner-text position-relative d-flex flex-column justify-content-center">
+											<h1 className="text-white big-font">Learn the Natural way,  Speak like a Native.</h1>
+											<p className="mb-4">*Munsel is an online language learning platform that connects native language speakers with students. </p>
+											<form className="form form-newsletter input-group" method="post" action="index.html">
+												<input className="form-control mr-md-3 mr-1" placeholder="Enter@email.com" type="email"></input>
+												<button type="button" className="input-group-append btn dark-btn " name="button">Get Started</button>
+											 </form>
+											<p className="mt-3 lead border-dashed">Increase your chance of learning a new language by  12%</p>
+											<a href="javascript:;" className="learn-more text-white lead font-weight-bold d-table">
+											<span className="">Learn More</span>
+											<i className="fa fa-angle-down d-table-cell align-bottom pl-2"></i></a>
+										</div> {/* }/banner text */}
+									</div>{/* }/col */}
+							      </div> {/* /row */ }
 							 </div> {/* }/container */}
-						 </div>
-					 </div>
+						</div>
+					</div>
 				</div> {/* banner */}
 				<main id="main-content">
 					<section className="t-burger our-story">
