@@ -72,17 +72,17 @@ class App extends React.Component{
 							<div className="row align-items-stretch">
 								<div className="col-lg-5 col-md-5 pr-md-0">
 									<div className="text-box h-100 theme-bg p-lg-5 p-3 text-white d-flex flex-column justify-content-center b-radius">
-											<h2 className="text-white big-font">Munsel</h2>
-											<p className="font-big mb-4">adj ~ (mun sel)</p>
-											<p className="font-italic lead">: open minded; commited; engaged</p>
-										</div>
+										<h2 className="text-white big-font">Munsel</h2>
+										<p className="font-big mb-4">adj ~ (mun sel)</p>
+										<p className="font-italic lead">: open minded; commited; engaged</p>
+									</div>
 								</div> {/* /col */}
 								<div className="col-lg-7 col-md-7">
 									<div className="h-100 gray-bg p-lg-5 p-3 d-flex flex-column justify-content-center b-radius">
-											<h2>Our Story</h2>
-											<p>Munsel was founded in early 2017 by a Software Engineer and a Multi-Cultural Entrepreneur wishing to connect back to their roots. While the venture was initially built to ameliorate communication gaps between Tibetans, our mission to help all people to learn languages and all its nuances, to see the world differently in other languages.</p>
-											<a href="#." className="font-weight-bold meet-team"><span>Meet our Team</span></a>
-										</div>
+										<h2>Our Story</h2>
+										<p>Munsel was founded in early 2017 by a Software Engineer and a Multi-Cultural Entrepreneur wishing to connect back to their roots. While the venture was initially built to ameliorate communication gaps between Tibetans, our mission to help all people to learn languages and all its nuances, to see the world differently in other languages.</p>
+										<a href="#." className="font-weight-bold meet-team"><span>Meet our Team</span></a>
+									</div>
 								</div> {/* /col */}
 							</div> {/* /row */}
 						</div> {/* /container */}
@@ -92,18 +92,18 @@ class App extends React.Component{
 							<div className="row align-items-stretch">
 								<div className="col-lg-4 col-md-4 pr-md-0">
 									<div className="h-100 gray-bg pl-lg-5 pr-lg-2 p-3 py-6 d-flex flex-column l-radius">
-											<h2>Why Munsel? </h2>
-											<p>Cultural exchange and dialogues are the crux of our program. With us, you get to interact with natives, immerse in a real-life dialogues, revise at your convenience, a sophisticated self-grading system, and be part of a like-minded language learners. </p>
-										</div>
+										<h2>Why Munsel? </h2>
+										<p>Cultural exchange and dialogues are the crux of our program. With us, you get to interact with natives, immerse in a real-life dialogues, revise at your convenience, a sophisticated self-grading system, and be part of a like-minded language learners. </p>
+									</div>
 								</div> {/* /col */}
 								<div className="col-lg-4 col-md-4 px-md-0 mb-4 mb-md-0">
 									<div className="h-100 gray-bg pr-lg-5 pl-lg-2 p-3 py-6 d-flex flex-column r-radius">
-											<h2>“Little Wiser Everyday”</h2>
-											<p>One of the best ways to grow is learn something everyday. The recipe to success is focus, dedication and determination. Combine the two, you will find yourself becoming a little wiser everyday in the crucible of continuous learning.</p>
-										</div>
+										<h2>“Little Wiser Everyday”</h2>
+										<p>One of the best ways to grow is learn something everyday. The recipe to success is focus, dedication and determination. Combine the two, you will find yourself becoming a little wiser everyday in the crucible of continuous learning.</p>
+									</div>
 								</div> {/* /col */}
 								<div className="col-lg-4 col-md-4">
-										<img src={require('./images/Parchang-Picture@2x.png')} alt="image" className="img-fluid b-radius object-cover"></img>
+									<img src={require('./images/Parchang-Picture@2x.png')} alt="image" className="img-fluid b-radius object-cover"></img>
 								</div> {/* /col */}
 							</div> {/* /row */}
 						</div> {/* /container */}
@@ -113,18 +113,18 @@ class App extends React.Component{
 						<div className="container">
 							<div className="row align-items-stretch">
 								<div className="col-lg-6 col-md-6 mb-4">
-										<img src={require('./images/people-new@2x.png')} alt="image" className="img-fluid b-radius object-cover"></img>
+									<img src={require('./images/people-new@2x.png')} alt="image" className="img-fluid b-radius object-cover"></img>
 								</div> {/* /col */}
 								<div className="col-lg-6 col-md-6">
 									<div className="h-100 p-lg-5 p-3 d-flex flex-column justify-content-center b-radius">
-											<h2 className="theme-color mb-md-5 big-font">Munsel Approach</h2>
-											<h2>Natural Learning</h2>
-											<p className="mb-md-5">Our Natural Learning approach ensures our students convenience, direct and personal learning experience with a native speaker; a chance to listen and speak and immerse in your target language.</p>
-											<h2>Community</h2>
-											<p className="mb-md-5">Our community of like mindedness is the heart of Munsel. We provide network and support to help you achieve your language goals and help you see the world differently in another language.</p>
-											<h2>Immersion</h2>
-											<p className="mb-md-5">Our immersion program values and imparts open mindedness, commitment and engagement.</p>
-										</div>
+										<h2 className="theme-color mb-md-5 big-font">Munsel Approach</h2>
+										<h2>Natural Learning</h2>
+										<p className="mb-md-5">Our Natural Learning approach ensures our students convenience, direct and personal learning experience with a native speaker; a chance to listen and speak and immerse in your target language.</p>
+										<h2>Community</h2>
+										<p className="mb-md-5">Our community of like mindedness is the heart of Munsel. We provide network and support to help you achieve your language goals and help you see the world differently in another language.</p>
+										<h2>Immersion</h2>
+										<p className="mb-md-5">Our immersion program values and imparts open mindedness, commitment and engagement.</p>
+									</div>
 								</div> {/* /col */}
 							</div> {/* /row */}
 						</div> {/* /container */}
@@ -140,33 +140,33 @@ class App extends React.Component{
 							<div className="row align-items-stretch">
 								<div className="col-lg-4 col-md-4 mb-4 p-2">
 									<div className="text-box h-100 d-flex flex-column b-radius card">
-											<a href="#."><img className="card-img-top img-fluid p-3 object-cover custom-height" src={require('./images/Resources@2x.png')}  alt="image"></img></a>
-											<div className="card-body">
-												<h2 className="card-title">Resources & Tools</h2>
-												<p className="card-text pb-5">All previous courses, articles, learning methods, free online learning tools and audios are available here.</p>
-												<h3><a href="#" className="theme-color link">Explore Free Resources</a></h3>
-											</div>
+										<a href="#."><img className="card-img-top img-fluid p-3 object-cover custom-height" src={require('./images/Resources@2x.png')}  alt="image"></img></a>
+										<div className="card-body">
+											<h2 className="card-title">Resources & Tools</h2>
+											<p className="card-text pb-5">All previous courses, articles, learning methods, free online learning tools and audios are available here.</p>
+											<h3><a href="#" className="theme-color link">Explore Free Resources</a></h3>
 										</div>
+									</div>
 								</div> {/* /col */}
 								<div className="col-lg-4 col-md-4 mb-4 p-2">
 									<div className="h-100 d-flex flex-column b-radius card">
 										<a href="#."><img className="card-img-top img-fluid p-3 object-cover custom-height" src={require('./images/think@2x.png')}  alt="image"></img></a>
 										<div className="card-body">
-												<h2 className="card-title">Munsel Podcast</h2>
-												<p className="card-text pb-5">Our podcast features discussions and interviews and lessons on honorifics, cultural etiquettes, how to’s, cultural history, food, and cultural lifestyles.</p>
-												<h3><a href="#" className="theme-color link">Listen to our podcast</a></h3>
+											<h2 className="card-title">Munsel Podcast</h2>
+											<p className="card-text pb-5">Our podcast features discussions and interviews and lessons on honorifics, cultural etiquettes, how to’s, cultural history, food, and cultural lifestyles.</p>
+											<h3><a href="#" className="theme-color link">Listen to our podcast</a></h3>
 										</div>
-										</div>
+									</div>
 								</div> {/* /col */}
 								<div className="col-lg-4 col-md-4 mb-4 p-2">
 									<div className="h-100 d-flex flex-column b-radius card">
 										<a href="#."><img className="card-img-top img-fluid p-3 object-cover custom-height" src={require('./images/Munsel-logomark@2x.jpg')}  alt="image"></img></a>
 										<div className="card-body">
-												<h2 className="card-title">Language Buddy App</h2>
-												<p className="card-text pb-5">We are currently building a language buddy App. This App will provide one-on-one online and offline dialogue sessions.</p>
-												<h3><a href="#" className="theme-color link">Connect with Native Speaker</a></h3>
+											<h2 className="card-title">Language Buddy App</h2>
+											<p className="card-text pb-5">We are currently building a language buddy App. This App will provide one-on-one online and offline dialogue sessions.</p>
+											<h3><a href="#" className="theme-color link">Connect with Native Speaker</a></h3>
 										</div>
-										</div>
+									</div>
 								</div> {/* /col */}
 							</div> {/* /row */}
 						</div> {/* /container */}
